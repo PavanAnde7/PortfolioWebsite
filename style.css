@@ -40,7 +40,9 @@ nav{
     height: auto;
     z-index: 100;
 }
-
+nav .fa-solid{
+    display: none;
+}
 nav ul li{
     display: inline-block;
 }
@@ -372,6 +374,13 @@ nav ul li a:hover::after{
     color: #080808;
     transform: translateY(-5px);
 }
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;margin-top: 20px;
+}
 
 /* css for small screen */
 
@@ -384,7 +393,7 @@ nav .fas{
         background-image: url(images/silhouette-portrait-man-model.jpg);
     }
     .container{
-        padding: 1px 5%;
+        padding: 1px 0% 1px 5%;
     }
     nav{
         width: 90vw;
@@ -443,11 +452,11 @@ nav .fas{
         margin-right: 20px;
     }
     .tab-contents p{
-        margin-left: 32%;
+        margin-left: 35%;
         font-size: 25px;
     }
     .tab-contents ul li{
-        margin-left: 15px ;
+        margin-left: 30px ;
     }
     .tab-contents .logos ul li img{
         margin: 4px;
@@ -460,17 +469,17 @@ nav .fas{
         padding: 5px 0;
     }
     .work img{
-        width: 320px;
+        width: 340px;
         height: 250px;
     }
     .work:hover img{
         transform: scale(1.01);
     }
     .layer{
-        width: 322px;
+        width: 341px;
     }
     .work:hover .layer{
-        width: 322px;
+        width: 341px;
     }
     .contact-left,.contact-right{
         flex-basis: 95%;
