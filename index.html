@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Ande - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ac4f337ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/png/logo-white-1.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li><a href=""></a></li> -->
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full stack developer</p>
+                <h1>Hi, I'm <span>Pavan Ande</span><br> from Pune.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Full-stack developer with a Bachelor of Engineering degree and a strong ability of developing and delivering high-quality software solutions. Ability to work independently and as part of a team to design and develop applications using Java, HTML, CSS, JavaScript, Bootstrap, jQuery, React, Nodejs, Expressjs, MongoDB Git and GitHub.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <p>Tech Stack</p>
+                        <div class="logos">
+                            <ul>
+                                <li>
+                                    <img src="https://skillicons.dev/icons?i=html" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=css" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=js" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=bootstrap" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=jquery" alt="skill-icon">
+                                </li>
+                                <li>
+                                    <img src="https://skillicons.dev/icons?i=java" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=nodejs" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=react" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=mongodb" alt="skill-icon">
+                                    <img src="https://skillicons.dev/icons?i=express" alt="skill-icon">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Experience -->
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Experience</span><br>HTML, CSS, JavaScript</li>
+                            
+                        </ul>
+                    </div> -->
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Bachelor of Engineering (2017 – 2020)</span><br>N B Navale Sinhgad College of Engineering <br>Percentage = 82.67%
+                            </li>
+                            <br><br>
+                            <li>
+                                <span>Diploma (2014 – 2017)</span><br>A. G. Patil Polytechnic Institute <br>Percentage = 72.35%
+                            </li>
+                            <br><br>
+                            <li>
+                                <span>SSC (2014)</span><br>H.D. Highschool<br>Percentage = 73.80%
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section  -->
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web-design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure numquam architecto nemo doloribus temporibus sed dolor rerum tempore corporis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web-design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure numquam architecto nemo doloribus temporibus sed dolor rerum tempore corporis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web-design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iure numquam architecto nemo doloribus temporibus sed dolor rerum tempore corporis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Project section -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/MusicRoom.png" alt="">
+                    <div class="layer">
+                        <h3>MusicRoom Music website</h3>
+                        <p>Designed and developed a MusicRoom web application using
+                            HTML, CSS, and JavaScript.
+                            </p>
+                        <a href="https://github.com/PavanAnde7/MusicRoom_MusicWebSite-Git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/fitNutrition.jpg" alt="">
+                    <div class="layer">
+                        <h3>Working on Fitness Nutrition tracking web
+                            application</h3>
+                        <p>Nutrition tracking web application with login authentication,
+                            user registration, user dashboard, and admin dashboard.</p>
+                        <a href="https://github.com/PavanAnde7/FitnessNutritionTrackerApp_1"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/coins.jpg" alt="">
+                    <div class="layer">
+                        <h3>Coin collection management system</h3>
+                        <p>Developed a Java-based Coin Collection Management system
+                            using Hibernate for seamless database integration.
+                            </p>
+                        <a href="https://github.com/PavanAnde7/Coin_collection_management_system"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/PavanAnde7" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a id="mail" href="mailto:pavanande99@gmail.com"><i class="fa-regular fa-envelope"></i>pavanande99@gmail.com</a>
+                    <p><i class="fa-solid fa-phone"></i>9921152749</p>
+                    <div class="social-icons">
+                        <a href="http://www.linkedin.com/in/pavan-ande"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/PavanAnde7"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Resume/PavanAndeResume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+</html>
