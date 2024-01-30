@@ -394,7 +394,7 @@ nav .fas{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/backgroundImg.jpg);
+        background-image: url(images/backgroundImgMob.jpg);
     }
     .container{
         padding: 1px 0% 1px 5%;
